@@ -205,7 +205,7 @@ class Staff:
 
         self.hobby = SheetHelper.getValueFromSheet(sheet, 'B6')
 
-        self.workEmail = SheetHelper.getValueFromSheet(sheet, 'C56')
+        self.workEmail = SheetHelper.getValueFromSheet(sheet, 'D56')
 
         self.entryTime = SheetHelper.getValueFromSheet(sheet, 'B55')
 
