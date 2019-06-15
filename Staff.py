@@ -281,6 +281,8 @@ class Staff:
         self.fundType = SheetHelper.getValueFromSheet(sheet, 'G43')
 
         self.fundNumber = SheetHelper.getValueFromSheet(sheet, 'G44')
+        if self.fundNumber == '可不填':
+            self.fundNumber = ''
 
         self.insuranceType = SheetHelper.getValueFromSheet(sheet, 'C43')
 
