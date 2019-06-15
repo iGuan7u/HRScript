@@ -24,7 +24,7 @@ for i in range(0, len(list)):
         staff = Staff(sh)
         staff.writeToSheet(mySheet, i + 1)
 
-        # shutil.move(path, os.path.join(doneDirPath, list[i]))
+        shutil.move(path, os.path.join(doneDirPath, list[i]))
 
 
 myWorkbook.save('结果.xls')
