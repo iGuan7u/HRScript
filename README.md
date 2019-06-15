@@ -23,3 +23,12 @@ $: pip install xlwt
 ```
 $: python main.py
 ```
+
+### Generate Executable File
+
+#### Dependency
+- pyinstaller
+
+#### How To Use
+
+Run `build.bat` script in terminal.
