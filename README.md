@@ -2,7 +2,7 @@
 HR Script for my wife.
 
 ### What For?
-It is used to analyze wife's excel documents, and make her more easier.
+It is used to analyze wife's excel documents, and make her more easier(happier).
 
 1. It will analyze all .xlsx files in `./文件池` folder.
 2. Each files has been analyzed, will move into `./文件池/已完成` folder.
