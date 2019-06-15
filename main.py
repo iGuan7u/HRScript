@@ -24,4 +24,4 @@ for i in range(0, len(list)):
         # shutil.move(path, os.path.join(doneDirPath, list[i]))
 
 
-myWorkbook.save('new.xls')
+myWorkbook.save('结果.xls')
