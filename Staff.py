@@ -232,6 +232,9 @@ class Staff:
         trainInfos = SheetHelper.getValueFromBounds(sheet, 'B15', 'H17')
         trainInfosStrings = []
         for trainInfo in trainInfos:
+            if len(trainInfos) < 4:
+                print("%s 培训记录不合法，记录将抛弃", self.name)
+                continue
             trainInfosStrings.append('起止时间：{0[0]}；培训机构：{0[1]}；培训课程：{0[2]};证书：{0[3]}'.format(trainInfo))
         self.trainInfo = '；'.join(trainInfosStrings)
 
